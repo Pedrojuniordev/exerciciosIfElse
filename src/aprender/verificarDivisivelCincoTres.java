@@ -10,7 +10,7 @@ public class verificarDivisivelCincoTres {
 		System.out.print("Digite um número: ");
 		int numero = scanner.nextInt();
 		
-		if ((numero % 5 ==0)&& numero %3 == 0) {
+		if ((numero % 5 ==0) && numero % 3 == 0) {
 			System.out.println(numero + " É divisivel de 5 e 3. ");
 		}else {
 			System.out.println(numero + " Não é divisivel de 5 e 3.");
